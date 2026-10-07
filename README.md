@@ -2,6 +2,13 @@
 
 Prelaunch website for the Ratel Rage game. The site is a separate project from the game source in `../RAGE OF RATELS`; no game originals were changed.
 
+## GitHub preview
+
+- Static preview: https://kenechukwuuzongwa-ai.github.io/ratel-rage-hq/
+- Source repository: https://github.com/kenechukwuuzongwa-ai/ratel-rage-hq
+
+The GitHub Pages build is a presentation preview. The full application routes for submissions, voting, uploads, storage, and administration require a compatible server deployment and are not active on GitHub Pages.
+
 ## What the game audit found
 
 - The current game is a working HTML5 Canvas browser prototype. The developed combat mission is Level 01, **The Street Tax**, in a Lagos Island/Balogun Street setting. Darki faces Agbero enforcers and MC Olodo.
