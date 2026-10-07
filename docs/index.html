@@ -4,18 +4,32 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b0c0c">
+  <meta name="robots" content="noindex, follow">
   <meta name="description" content="Ratel Rage is a Nigerian-inspired 2D arcade beat 'em up in development.">
   <title>Ratel Rage — Official Game Preview</title>
+  <link rel="canonical" href="https://kenechukwuuzongwa-ai.github.io/ratel-rage-hq/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Ratel Rage">
+  <meta property="og:title" content="Ratel Rage — Official Game Preview">
+  <meta property="og:description" content="Ratel Rage is a Nigerian-inspired 2D arcade beat 'em up in development.">
+  <meta property="og:url" content="https://kenechukwuuzongwa-ai.github.io/ratel-rage-hq/">
+  <meta property="og:image" content="https://kenechukwuuzongwa-ai.github.io/ratel-rage-hq/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ratel Rage — Official Game Preview">
+  <meta name="twitter:description" content="Ratel Rage is a Nigerian-inspired 2D arcade beat 'em up in development.">
+  <meta name="twitter:image" content="https://kenechukwuuzongwa-ai.github.io/ratel-rage-hq/og.png">
   <link rel="icon" href="./media/logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Ratel Rage home"><img src="./media/logo.svg" alt="Ratel Rage"></a>
+    <a class="brand" href="./index.html" aria-label="Ratel Rage home"><img src="./media/logo.svg" alt="Ratel Rage"></a>
     <nav aria-label="Preview navigation">
-      <a href="#game">The game</a>
-      <a href="#characters">Characters</a>
-      <a href="#status">Updates</a>
+      <a href="./game.html">The game</a>
+      <a href="./game.html#characters">Characters</a>
+      <a href="./play.html">Play</a>
+      <a href="./updates.html">Updates</a>
+      <a href="./creator-kit.html">Creator kit</a>
       <a class="repo-link" href="https://github.com/kenechukwuuzongwa-ai/ratel-rage-hq">View source</a>
     </nav>
   </header>
@@ -30,8 +44,8 @@
         <h1>The street has a price.<br><em>Make them pay it.</em></h1>
         <p class="lede">Step into Darki's fight through a pixel-built Lagos. Chain attacks, own the street, and take on the people running it.</p>
         <div class="actions">
-          <a class="button primary" href="#game">Explore the game</a>
-          <a class="button secondary" href="#status">Build status</a>
+          <a class="button primary" href="./game.html">Explore the game</a>
+          <a class="button secondary" href="./play.html">Build status</a>
         </div>
         <div class="meta"><span>01 / The Street Tax</span><span>Desktop browser prototype</span><span>Android validation pending</span></div>
       </div>
@@ -45,11 +59,15 @@
         <h2>No quiet<br><em>streets.</em></h2>
         <p>A fast, hard-hitting 2D brawler grounded in familiar streets and larger-than-life trouble.</p>
       </div>
-      <figure class="fighter"><img src="./media/darki.webp" alt="Darki in a fighting stance"><figcaption>Darki // Player 01</figcaption></figure>
+      <figure class="fighter">
+        <img src="./media/darki.webp" alt="Darki in a fighting stance">
+        <figcaption>Darki // Player 01</figcaption>
+      </figure>
       <div class="combat-copy">
         <small>01 — Fight your way through</small>
         <h3>Hit first.<br>Hit harder.</h3>
         <p>Move between lanes, link attacks, block the return shot, and grab an opening. The fight keeps moving even when you don't.</p>
+        <a class="button secondary" href="./game.html#combat">See how it plays ↗</a>
       </div>
     </section>
 
@@ -58,13 +76,19 @@
         <p class="kicker">// The world</p>
         <h2>Lagos is<br>the arena.</h2>
         <p>Street corners, market heat, and a fight that starts with a demand you refuse to pay.</p>
+        <a class="button secondary" href="./game.html#world">Enter the world ↗</a>
       </div>
       <img src="./media/street.webp" alt="Pixel art Lagos street environment from Ratel Rage">
     </section>
 
     <section class="section" id="characters">
-      <p class="kicker">// Select your fighter</p>
-      <h2>Meet the <em>crew.</em></h2>
+      <div class="top">
+        <div>
+          <p class="kicker">// Select your fighter</p>
+          <h2>Meet the <em>crew.</em></h2>
+        </div>
+        <a class="button secondary" href="./game.html#characters">Full roster ↗</a>
+      </div>
       <div class="roster">
         <article><div><img src="./media/darki.webp" alt="Darki"></div><p><span>01 / Player</span><strong>Darki</strong></p></article>
         <article><div><img src="./media/olodo.webp" alt="MC Olodo"></div><p><span>02 / Boss</span><strong>MC Olodo</strong></p></article>
@@ -86,6 +110,18 @@
     </section>
   </main>
 
-  <footer><img src="./media/logo.svg" alt="Ratel Rage"><p>© 2026 Ratel Rage. Made in Nigeria · Build in progress.</p></footer>
+  <footer>
+    <div class="wrap">
+      <div class="foot-top">
+        <div><img src="./media/logo.svg" alt="Ratel Rage"><p>A Nigerian-inspired arcade brawler in development.</p></div>
+        <div class="foot-links">
+          <div><b>Explore</b><a href="./index.html">Home</a><a href="./game.html">The game</a><a href="./play.html">Play</a><a href="./updates.html">Updates</a><a href="./creator-kit.html">Creator kit</a></div>
+          <div><b>Get involved</b><span>Playtest signup — needs an app host</span><span>Feedback and bug reports — needs an app host</span><span>Feature ideas and voting — needs an app host</span><a href="https://github.com/kenechukwuuzongwa-ai/ratel-rage-hq">Source repository</a></div>
+          <div><b>Info</b><a href="./privacy.html">Privacy</a><a href="./terms.html">Terms</a><a href="https://github.com/kenechukwuuzongwa-ai/ratel-rage-hq/blob/main/docs/ASSET_SOURCES.md">Image provenance</a></div>
+        </div>
+      </div>
+      <div class="foot-bottom"><span>© 2026 Ratel Rage. All rights reserved.</span><span>Made in Nigeria · Build in progress</span></div>
+    </div>
+  </footer>
 </body>
 </html>

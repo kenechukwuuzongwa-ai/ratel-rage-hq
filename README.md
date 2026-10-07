@@ -9,6 +9,20 @@ Prelaunch website for the Ratel Rage game. The site is a separate project from t
 
 The GitHub Pages build is a presentation preview. The full application routes for submissions, voting, uploads, storage, and administration require a compatible server deployment and are not active on GitHub Pages.
 
+The preview lives in `docs/` and is hand-written static HTML and CSS with no build step; it mirrors the public content of the app routes but is not generated from them, so copy changes have to be made in both places. It covers:
+
+| Preview page | Mirrors | Notes |
+| --- | --- | --- |
+| `index.html` | `/` | Hero, combat spotlight, world strip, roster, build status. |
+| `game.html` | `/game` | Gameplay capture, roster, Level 01 detail, full control list. |
+| `play.html` | `/play` | Both release cards with their real status. No play link is offered. |
+| `updates.html` | `/updates` | Roadmap and current build notes. |
+| `creator-kit.html` | `/creator-kit` | Press description and downloadable official assets. |
+| `privacy.html`, `terms.html` | `/privacy`, `/terms` | Same wording, plus a note that the static preview collects nothing. |
+| `404.html` | — | GitHub Pages error page. Its links are absolute under `/ratel-rage-hq/` so they work from any path. |
+
+Pages that depend on a server — playtest, feedback, bugs, ideas, insider, community, admin — are not reproduced; the preview links to the repository instead and says why. Preview pages carry `noindex, follow`, matching the prelaunch indexing policy below; remove that meta tag when the site goes public. Preview images are copies of `public/media/`, and `docs/ASSET_SOURCES.md` documents where each one came from.
+
 ## What the game audit found
 
 - The current game is a working HTML5 Canvas browser prototype. The developed combat mission is Level 01, **The Street Tax**, in a Lagos Island/Balogun Street setting. Darki faces Agbero enforcers and MC Olodo.
